@@ -1,3 +1,6 @@
 export const findIndex = (array, value) => {
-  return
+  if (array.includes(value))
+    return array.indexOf(value)
+  else
+    return -1
 }
